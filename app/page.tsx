@@ -6,7 +6,7 @@ import CompanionsList from '@/components/CompanionsList';
 
 import { recentSessions } from '@/constants';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <main>
       <h1>Popular Companions</h1>
@@ -48,4 +48,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

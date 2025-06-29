@@ -1,7 +1,13 @@
 import React from 'react';
 
-const Subscription = () => {
-  return <div>Subscription</div>;
+import { PricingTable } from '@clerk/nextjs';
+
+const SubscriptionPage = () => {
+  return (
+    <div>
+      <PricingTable />
+    </div>
+  );
 };
 
-export default Subscription;
+export default SubscriptionPage;
